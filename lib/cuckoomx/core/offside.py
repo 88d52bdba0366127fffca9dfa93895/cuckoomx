@@ -6,10 +6,13 @@
 import os
 import time
 import fnmatch
+import logging
 
 from lib.cuckoomx.core.mail import Mail
-from lib.cuckoomx.core.database import Database
+from lib.cuckoomx.core.databasemx import DatabaseMX
 from lib.cuckoomx.common.config import Config
+
+log = logging.getLogger(__name__)
 
 def offside():
     """This is an offside mode of CuckooMX
@@ -21,22 +24,20 @@ def offside():
     """
     cfg = Config("cuckoomx")
     enabled = cfg.offside.get("enalbed")
+    store = cfg.offside.get("store")
 
     if enabled is False:
         return False
-
-    storage = cfg.offside.get("storage")
-
+    
     while True:
-        for root, dirnames, filenames in os.walk(storage):
+        nothing_to_check = True
+        for root, dirnames, filenames in os.walk(store):
             for filename in fnmatch.filter(filenames, '*.msg'):
-                # Keep calm and waiting for Cuckoo, sleep 1s.
-                # TODO: should we run fast as much as we can?
-                time.sleep(1)
-                
                 path = os.path.join(root, filename)
                 mail = Mail(path)
                 mail.parse()
+
+                log.debug("Parsing mail %s at %s", mail.get_msg_id(), path)
 
                 if mail.is_exist() is True:
                     continue
@@ -45,5 +46,11 @@ def offside():
                     continue
 
                 # Okay, add it to database
-                db = Database()
-                db.add_mail(mail)
+                dbmx = DatabaseMX()
+                dbmx.add_mail(mail)
+
+                nothing_to_check = False
+                log.debug("Add mail %s to database", mail.get_msg_id())
+
+        if nothing_to_check:
+            time.sleep(1)

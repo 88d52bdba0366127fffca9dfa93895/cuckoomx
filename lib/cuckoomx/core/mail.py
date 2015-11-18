@@ -8,7 +8,7 @@ import logging
 import hashlib
 
 from lib.cuckoomx.core.request import Request
-from lib.cuckoomx.core.database import Database
+from lib.cuckoomx.core.databasemx import DatabaseMX
 
 log = logging.getLogger(__name__)
 
@@ -36,7 +36,7 @@ class Mail(object):
         self.attachments = []
         self.tasks = []
 
-        self.db = Database()
+        self.dbmx = DatabaseMX()
 
     def get_msg_id(self):
         """Get msg_id
@@ -86,7 +86,7 @@ class Mail(object):
         """Check if this mail exist in database
         @return: True/False
         """
-        is_exist = self.db.mail_exist(self.msg_id)
+        is_exist = self.dbmx.mail_exist(self.msg_id)
         return is_exist
 
     def process_urls(self, urls):
@@ -96,7 +96,7 @@ class Mail(object):
         for url in urls:
             # Check if this url is exists in our database
             # Should be check it again if we already check this url 1 day ago
-            if self.db.url_exist(url):
+            if self.dbmx.url_exist(url):
                 continue
 
             request = Request()
@@ -106,12 +106,12 @@ class Mail(object):
                 return False
 
             # Okay, add it to task list
-            self.tasks.append({
-                "task_id": task_id,
-                "severity": 0,
-                "url": url,
-                "date_checked": None})
-            return True
+            for _id in task_id:
+                self.tasks.append({
+                    "task_id": _id,
+                    "malscore": None,
+                    "url": url,
+                    "date_checked": None})
 
     def process_attachments(self, attachments):
         """Process attachments
@@ -125,7 +125,7 @@ class Mail(object):
             sha256 = hashlib.sha256(payload).hexdigest()
 
             # Check if hash of file is exists in our database
-            if self.db.attachment_exist(sha256):
+            if self.dbmx.attachment_exist(sha256):
                 continue
 
             request = Request()
@@ -135,12 +135,13 @@ class Mail(object):
                 return False
 
             # Okay, add it to task list
-            self.tasks.append({
-                "task_id": task_id,
-                "severity": 0,
-                "attachment": filename,
-                "sha256": sha256,
-                "date_checked": None})
+            for _id in task_id:
+                self.tasks.append({
+                    "task_id": _id,
+                    "malscore": None,
+                    "attachment": filename,
+                    "sha256": sha256,
+                    "date_checked": None})
             return True
 
     def parse(self):
@@ -153,9 +154,6 @@ class Mail(object):
         message = email.message_from_file(msg_file)
 
         self.msg_id = message['message-id']
-
-        # check msg_id
-
         self.msg_ori = message.as_string()
         self.date = message['date']
         self.sender = message['from']

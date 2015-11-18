@@ -9,6 +9,8 @@ import logging.handlers
 from lib.cuckoomx.common.constants import CUCKOOMX_ROOT
 from lib.cuckoomx.common.utils import create_folders
 from lib.cuckoomx.common.exceptions import CuckooOperationalError
+from lib.cuckoomx.common.config import Config
+from lib.cuckoomx.core.databasemx import DatabaseMX
 
 log = logging.getLogger()
 
@@ -44,4 +46,19 @@ def init_logging():
     fh.setFormatter(formatter)
     log.addHandler(fh)
 
-    log.setLevel(logging.DEBUG)
+    log.setLevel(logging.INFO)
+
+def cuckoomx_clean():
+    """Remove database and log of CuckooMX"""
+    # Initialize the database connection.
+    dbmx = DatabaseMX()
+
+    # Drop all tables.
+    dbmx.drop_database()
+
+    # Delete log
+    path = os.path.join(CUCKOOMX_ROOT, "log", "cuckoomx.log")
+    try:
+        os.unlink(path)
+    except (IOError, OSError) as e:
+        log.warning("Error removing file %s: %s", path, e)

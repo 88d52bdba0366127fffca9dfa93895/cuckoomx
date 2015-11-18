@@ -6,3 +6,5 @@ import os
 
 _current_dir = os.path.abspath(os.path.dirname(__file__))
 CUCKOOMX_ROOT = os.path.normpath(os.path.join(_current_dir, "..", "..", ".."))
+
+CUCKOOMX_VERSION = "0.3-Optiv"
