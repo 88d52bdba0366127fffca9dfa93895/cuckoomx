@@ -3,9 +3,12 @@
 # See the file 'docs/LICENSE' for copying permission.
 
 import time
+import logging
 import requests
 
 from lib.cuckoomx.common.config import Config
+
+log = logging.getLogger(__name__)
 
 class Machine:
     def get_available_machine(self, machine):
@@ -24,9 +27,15 @@ class Machine:
                 # Every machines are not available, wait for them
                 time.sleep(1)
                 i = 0
-
+            
             machine_name = machine+str(i)
-            request = requests.get(rest_url+machine_name)
+            request = None
+
+            try:
+                request = requests.get(rest_url+machine_name)
+            except requests.ConnectionError as error:
+                log.warning("Cannot connect to API server")
+                continue
 
             # Check for request.status_code
             if request.status_code != requests.codes.ok:

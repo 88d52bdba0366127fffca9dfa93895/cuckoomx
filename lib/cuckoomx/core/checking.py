@@ -37,8 +37,8 @@ def checking():
         for mail in dbmx.get_mails_not_done():
             if mail["tasks"] is None:
                 # This mail don't have anything to check, it is okay.
-                # Update status = -1 and continue with a next mail
-                dbmx.set_mail_status(mail["id"], -1)
+                # Update status = 1 and continue with a next mail
+                dbmx.set_mail_status(mail["id"], 1)
                 continue
 
             # Keep calm and sleep 1s, we will check mail soon :)
@@ -70,8 +70,8 @@ def checking():
                     log.critical("Mail %s, task %s have something wrong",
                         mail["id"], task_id)
 
-                dbmx.set_task_status(
-                    mail["id"], task_id=task_id, status=malscore)
+                dbmx.set_task_malscore(
+                    mail["id"], task_id=task_id, malscore=malscore)
 
             if check_all_tasks:
                 dbmx.set_mail_ended(mail["id"])

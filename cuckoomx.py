@@ -10,12 +10,15 @@ import argparse
 
 from multiprocessing import Process
 
+from lib.cuckoomx.common.exceptions import CuckooCriticalError
+from lib.cuckoomx.common.exceptions import CuckooDependencyError
 from lib.cuckoomx.common.config import Config
 from lib.cuckoomx.common.constants import CUCKOOMX_VERSION
 from lib.cuckoomx.core.offside import offside
 from lib.cuckoomx.core.checking import checking
 from lib.cuckoomx.core.startup import check_configs
 from lib.cuckoomx.core.startup import init_logging
+from lib.cuckoomx.core.startup import init_database
 from lib.cuckoomx.core.startup import create_structure
 from lib.cuckoomx.core.startup import cuckoomx_clean
 
@@ -25,6 +28,7 @@ def cuckoomx_init(quiet=False, debug=False):
     check_configs()
     create_structure()
     init_logging()
+    init_database()
 
     if quiet:
         log.setLevel(logging.WARN)

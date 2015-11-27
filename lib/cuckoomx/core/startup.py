@@ -48,12 +48,14 @@ def init_logging():
 
     log.setLevel(logging.INFO)
 
+def init_database():
+    """Initialize Database CuckooMX"""
+    dbmx = DatabaseMX()
+    dbmx.create_database()
+    
 def cuckoomx_clean():
     """Remove database and log of CuckooMX"""
-    # Initialize the database connection.
     dbmx = DatabaseMX()
-
-    # Drop all tables.
     dbmx.drop_database()
 
     # Delete log

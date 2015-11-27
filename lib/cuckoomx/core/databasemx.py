@@ -38,7 +38,8 @@ class DatabaseMX:
             "date_created": "2015-02-30 10:00:00",
             "date_ended": "2015-02-30 12:00:00",
             "msg_id": "<863915596.101.1444539469173.JavaMail.zimbra@xxx.com>",
-            "status": -1,
+            "status": 0,
+            "highest_malscore": 0,
             "path": "/opt/zimbra/store/0/3/msg/0/257-12.msg",
             "tasks": [
                 {
@@ -68,10 +69,7 @@ class DatabaseMX:
 
         self.dbmx = None
         self.connect_database()
-
-        # Initialize data
-        if self.is_init() is False:
-            self.dbmx["summary"].insert_one(init_summary_data)
+        self.init_summary_data = init_summary_data
 
     def connect_database(self):
         """Connect to Databases"""
@@ -105,12 +103,24 @@ class DatabaseMX:
             return False
         return True
 
-    def set_task_status(self, _id, task_id, status):
+    def create_database(self):
+        if self.is_init() is False:
+            self.dbmx["summary"].insert_one(self.init_summary_data)
+            log.debug("Create Database CuckooMX")
+
+    def set_task_malscore(self, _id, task_id, malscore):
         self.dbmx["mails"].update(
             {"id": _id, "tasks.task_id": task_id},
             {"$set": {
-                "tasks.$.malscore": status,
+                "tasks.$.malscore": malscore,
                 "tasks.$.date_checked": str(datetime.now())}})
+
+
+        if malscore < self.dbmx["mails"].find_one({"id": _id})["highest_malscore"]:
+            return
+        self.dbmx["mails"].update(
+            {"id": _id},
+            {"$set": {"highest_malscore": malscore}})
 
     def set_mail_status(self, _id, status):
         self.dbmx["mails"].update(
@@ -122,7 +132,7 @@ class DatabaseMX:
             {"id": _id},
             {"$set": {
                 "date_ended": str(datetime.now()),
-                "status": -1}})
+                "status": 1}})
 
     def add_mail(self, mail):
         _id = self.dbmx["mails"].count()
@@ -135,6 +145,7 @@ class DatabaseMX:
             "date_ended": None,
             "msg_id": mail.get_msg_id(),
             "status": mail.get_status(),
+            "highest_malscore": 0,
             "path": mail.get_path(),
             "date": mail.date,
             "sender": mail.sender,
@@ -204,12 +215,14 @@ class DatabaseMX:
         @return: list of mails
         """
         cfg = Config("cuckoomx")
-        critical_malscore = cfg.cuckoomx.get("critical_malscore", "6")
+        warning_malscore = cfg.cuckoomx.get("warning_malscore", "2")
 
-        #TODO:
         mails = self.dbmx["mails"].find({
-            "tasks.$.malscore": {"$gt": critical_malscore}})
-        return mails.sort([["status", -1]])
+            "highest_malscore": {"$gte": int(warning_malscore)}})
+
+        if mails is None:
+            return None
+        return mails.sort([("id", -1)]) #######
 
     def inc_mails_have_malwares(self):
         """Increase @para total_malwares in database"""

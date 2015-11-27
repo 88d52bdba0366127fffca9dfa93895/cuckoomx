@@ -1,0 +1,514 @@
+2015-11-20 22:48:16,849 [lib.cuckoomx.core.offside] DEBUG: Parsing mail <863915596.101.1444539469173.JavaMail.zimbra@example.com> at /opt/zimbra/store/0/3/msg/666.msg
+2015-11-20 22:48:16,876 [lib.cuckoomx.core.checking] DEBUG: Checking mail 0 with 0 tasks
+2015-11-20 22:48:16,878 [lib.cuckoomx.core.offside] DEBUG: Add mail <863915596.101.1444539469173.JavaMail.zimbra@example.com> to database
+2015-11-20 22:48:16,923 [lib.cuckoomx.core.offside] DEBUG: Parsing mail <CAE_8zwg+Tc9tF9SaRBK7HLmVJxPZaU7DqTz=_bwDL0wBnHOOUg@mail.gmail.com> at /opt/zimbra/store/0/3/msg/333.msg
+2015-11-20 22:48:16,965 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 192.168.31.99
+2015-11-20 22:48:17,077 [requests.packages.urllib3.connectionpool] DEBUG: "GET /machines/view/windowsxp10 HTTP/1.1" 404 742
+2015-11-20 22:48:17,081 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 192.168.31.99
+2015-11-20 22:48:17,118 [requests.packages.urllib3.connectionpool] DEBUG: "GET /machines/view/windowsxp10 HTTP/1.1" 404 742
+2015-11-20 22:48:17,121 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 192.168.31.99
+2015-11-20 22:48:17,157 [requests.packages.urllib3.connectionpool] DEBUG: "GET /machines/view/windowsxp10 HTTP/1.1" 404 742
+2015-11-20 22:48:17,162 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 192.168.31.99
+2015-11-20 22:48:17,203 [requests.packages.urllib3.connectionpool] DEBUG: "GET /machines/view/windowsxp10 HTTP/1.1" 404 742
+2015-11-20 22:48:17,207 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 192.168.31.99
+2015-11-20 22:48:17,242 [requests.packages.urllib3.connectionpool] DEBUG: "GET /machines/view/windowsxp10 HTTP/1.1" 404 742
+2015-11-20 22:48:17,246 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 192.168.31.99
+2015-11-20 22:48:17,280 [requests.packages.urllib3.connectionpool] DEBUG: "GET /machines/view/windowsxp10 HTTP/1.1" 404 742
+2015-11-20 22:48:17,284 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 192.168.31.99
+2015-11-20 22:48:17,317 [requests.packages.urllib3.connectionpool] DEBUG: "GET /machines/view/windowsxp10 HTTP/1.1" 404 742
+2015-11-20 22:48:17,320 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 192.168.31.99
+2015-11-20 22:48:17,356 [requests.packages.urllib3.connectionpool] DEBUG: "GET /machines/view/windowsxp10 HTTP/1.1" 404 742
+2015-11-20 22:48:17,361 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 192.168.31.99
+2015-11-20 22:48:17,397 [requests.packages.urllib3.connectionpool] DEBUG: "GET /machines/view/windowsxp10 HTTP/1.1" 404 742
+2015-11-20 22:48:17,401 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 192.168.31.99
+2015-11-20 22:48:17,438 [requests.packages.urllib3.connectionpool] DEBUG: "GET /machines/view/windowsxp10 HTTP/1.1" 404 742
+2015-11-20 22:48:17,444 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 192.168.31.99
+2015-11-20 22:48:17,487 [requests.packages.urllib3.connectionpool] DEBUG: "GET /machines/view/windowsxp10 HTTP/1.1" 404 742
+2015-11-20 22:48:17,492 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 192.168.31.99
+2015-11-20 22:48:17,528 [requests.packages.urllib3.connectionpool] DEBUG: "GET /machines/view/windowsxp10 HTTP/1.1" 404 742
+2015-11-20 22:48:17,532 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 192.168.31.99
+2015-11-20 22:48:17,574 [requests.packages.urllib3.connectionpool] DEBUG: "GET /machines/view/windowsxp10 HTTP/1.1" 404 742
+2015-11-20 22:48:17,579 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 192.168.31.99
+2015-11-20 22:48:17,612 [requests.packages.urllib3.connectionpool] DEBUG: "GET /machines/view/windowsxp10 HTTP/1.1" 404 742
+2015-11-20 22:48:17,617 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 192.168.31.99
+2015-11-20 22:48:17,651 [requests.packages.urllib3.connectionpool] DEBUG: "GET /machines/view/windowsxp10 HTTP/1.1" 404 742
+2015-11-20 22:48:17,654 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 192.168.31.99
+2015-11-20 22:48:17,689 [requests.packages.urllib3.connectionpool] DEBUG: "GET /machines/view/windowsxp10 HTTP/1.1" 404 742
+2015-11-20 22:48:17,693 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 192.168.31.99
+2015-11-20 22:48:17,727 [requests.packages.urllib3.connectionpool] DEBUG: "GET /machines/view/windowsxp10 HTTP/1.1" 404 742
+2015-11-20 22:48:17,731 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 192.168.31.99
+2015-11-20 22:48:17,767 [requests.packages.urllib3.connectionpool] DEBUG: "GET /machines/view/windowsxp10 HTTP/1.1" 404 742
+2015-11-20 22:48:17,772 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 192.168.31.99
+2015-11-20 22:48:17,840 [requests.packages.urllib3.connectionpool] DEBUG: "GET /machines/view/windowsxp10 HTTP/1.1" 404 742
+2015-11-20 22:48:17,844 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 192.168.31.99
+2015-11-20 22:48:17,878 [requests.packages.urllib3.connectionpool] DEBUG: "GET /machines/view/windowsxp10 HTTP/1.1" 404 742
+2015-11-20 22:48:17,882 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 192.168.31.99
+2015-11-20 22:48:17,917 [requests.packages.urllib3.connectionpool] DEBUG: "GET /machines/view/windowsxp10 HTTP/1.1" 404 742
+2015-11-20 22:48:17,921 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 192.168.31.99
+2015-11-20 22:48:17,955 [requests.packages.urllib3.connectionpool] DEBUG: "GET /machines/view/windowsxp10 HTTP/1.1" 404 742
+2015-11-20 22:48:17,959 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 192.168.31.99
+2015-11-20 22:48:17,993 [requests.packages.urllib3.connectionpool] DEBUG: "GET /machines/view/windowsxp10 HTTP/1.1" 404 742
+2015-11-20 22:48:17,999 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 192.168.31.99
+2015-11-20 22:48:18,033 [requests.packages.urllib3.connectionpool] DEBUG: "GET /machines/view/windowsxp10 HTTP/1.1" 404 742
+2015-11-20 22:48:18,037 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 192.168.31.99
+2015-11-20 22:48:18,077 [requests.packages.urllib3.connectionpool] DEBUG: "GET /machines/view/windowsxp10 HTTP/1.1" 404 742
+2015-11-20 22:48:18,081 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 192.168.31.99
+2015-11-20 22:48:18,114 [requests.packages.urllib3.connectionpool] DEBUG: "GET /machines/view/windowsxp10 HTTP/1.1" 404 742
+2015-11-20 22:48:18,118 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 192.168.31.99
+2015-11-20 22:48:18,153 [requests.packages.urllib3.connectionpool] DEBUG: "GET /machines/view/windowsxp10 HTTP/1.1" 404 742
+2015-11-20 22:48:18,159 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 192.168.31.99
+2015-11-20 22:48:18,193 [requests.packages.urllib3.connectionpool] DEBUG: "GET /machines/view/windowsxp10 HTTP/1.1" 404 742
+2015-11-20 22:48:18,201 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 192.168.31.99
+2015-11-20 22:48:18,236 [requests.packages.urllib3.connectionpool] DEBUG: "GET /machines/view/windowsxp10 HTTP/1.1" 404 742
+2015-11-20 22:48:18,240 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 192.168.31.99
+2015-11-20 22:48:18,275 [requests.packages.urllib3.connectionpool] DEBUG: "GET /machines/view/windowsxp10 HTTP/1.1" 404 742
+2015-11-20 22:48:18,278 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 192.168.31.99
+2015-11-20 22:48:18,311 [requests.packages.urllib3.connectionpool] DEBUG: "GET /machines/view/windowsxp10 HTTP/1.1" 404 742
+2015-11-20 22:48:18,314 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 192.168.31.99
+2015-11-20 22:48:18,349 [requests.packages.urllib3.connectionpool] DEBUG: "GET /machines/view/windowsxp10 HTTP/1.1" 404 742
+2015-11-20 22:48:18,352 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 192.168.31.99
+2015-11-20 22:48:18,393 [requests.packages.urllib3.connectionpool] DEBUG: "GET /machines/view/windowsxp10 HTTP/1.1" 404 742
+2015-11-20 22:48:18,395 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 192.168.31.99
+2015-11-20 22:48:18,429 [requests.packages.urllib3.connectionpool] DEBUG: "GET /machines/view/windowsxp10 HTTP/1.1" 404 742
+2015-11-20 22:48:18,432 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 192.168.31.99
+2015-11-20 22:48:18,467 [requests.packages.urllib3.connectionpool] DEBUG: "GET /machines/view/windowsxp10 HTTP/1.1" 404 742
+2015-11-20 22:48:18,471 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 192.168.31.99
+2015-11-20 22:48:18,506 [requests.packages.urllib3.connectionpool] DEBUG: "GET /machines/view/windowsxp10 HTTP/1.1" 404 742
+2015-11-20 22:48:18,510 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 192.168.31.99
+2015-11-20 22:48:18,544 [requests.packages.urllib3.connectionpool] DEBUG: "GET /machines/view/windowsxp10 HTTP/1.1" 404 742
+2015-11-20 22:48:18,549 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 192.168.31.99
+2015-11-20 22:48:18,590 [requests.packages.urllib3.connectionpool] DEBUG: "GET /machines/view/windowsxp10 HTTP/1.1" 404 742
+2015-11-20 22:48:18,593 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 192.168.31.99
+2015-11-20 22:48:18,627 [requests.packages.urllib3.connectionpool] DEBUG: "GET /machines/view/windowsxp10 HTTP/1.1" 404 742
+2015-11-20 22:48:18,630 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 192.168.31.99
+2015-11-20 22:48:18,671 [requests.packages.urllib3.connectionpool] DEBUG: "GET /machines/view/windowsxp10 HTTP/1.1" 404 742
+2015-11-20 22:48:18,675 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 192.168.31.99
+2015-11-20 22:48:18,708 [requests.packages.urllib3.connectionpool] DEBUG: "GET /machines/view/windowsxp10 HTTP/1.1" 404 742
+2015-11-20 22:48:18,712 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 192.168.31.99
+2015-11-20 22:48:18,746 [requests.packages.urllib3.connectionpool] DEBUG: "GET /machines/view/windowsxp10 HTTP/1.1" 404 742
+2015-11-20 22:48:18,750 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 192.168.31.99
+2015-11-20 22:48:18,784 [requests.packages.urllib3.connectionpool] DEBUG: "GET /machines/view/windowsxp10 HTTP/1.1" 404 742
+2015-11-20 22:48:18,788 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 192.168.31.99
+2015-11-20 22:48:18,822 [requests.packages.urllib3.connectionpool] DEBUG: "GET /machines/view/windowsxp10 HTTP/1.1" 404 742
+2015-11-20 22:48:18,825 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 192.168.31.99
+2015-11-20 22:48:18,860 [requests.packages.urllib3.connectionpool] DEBUG: "GET /machines/view/windowsxp10 HTTP/1.1" 404 742
+2015-11-20 22:48:18,864 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 192.168.31.99
+2015-11-20 22:48:18,899 [requests.packages.urllib3.connectionpool] DEBUG: "GET /machines/view/windowsxp10 HTTP/1.1" 404 742
+2015-11-20 22:48:18,901 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 192.168.31.99
+2015-11-20 22:48:18,944 [requests.packages.urllib3.connectionpool] DEBUG: "GET /machines/view/windowsxp10 HTTP/1.1" 404 742
+2015-11-20 22:48:18,948 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 192.168.31.99
+2015-11-20 22:48:18,982 [requests.packages.urllib3.connectionpool] DEBUG: "GET /machines/view/windowsxp10 HTTP/1.1" 404 742
+2015-11-20 22:48:18,986 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 192.168.31.99
+2015-11-20 22:48:19,020 [requests.packages.urllib3.connectionpool] DEBUG: "GET /machines/view/windowsxp10 HTTP/1.1" 404 742
+2015-11-20 22:48:19,024 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 192.168.31.99
+2015-11-20 22:48:19,059 [requests.packages.urllib3.connectionpool] DEBUG: "GET /machines/view/windowsxp10 HTTP/1.1" 404 742
+2015-11-20 22:48:19,069 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 192.168.31.99
+2015-11-20 22:48:19,106 [requests.packages.urllib3.connectionpool] DEBUG: "GET /machines/view/windowsxp10 HTTP/1.1" 404 742
+2015-11-20 22:48:19,109 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 192.168.31.99
+2015-11-20 22:48:19,142 [requests.packages.urllib3.connectionpool] DEBUG: "GET /machines/view/windowsxp10 HTTP/1.1" 404 742
+2015-11-20 22:48:19,146 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 192.168.31.99
+2015-11-20 22:48:19,181 [requests.packages.urllib3.connectionpool] DEBUG: "GET /machines/view/windowsxp10 HTTP/1.1" 404 742
+2015-11-20 22:48:19,184 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 192.168.31.99
+2015-11-20 22:48:19,218 [requests.packages.urllib3.connectionpool] DEBUG: "GET /machines/view/windowsxp10 HTTP/1.1" 404 742
+2015-11-20 22:48:19,221 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 192.168.31.99
+2015-11-20 22:48:19,264 [requests.packages.urllib3.connectionpool] DEBUG: "GET /machines/view/windowsxp10 HTTP/1.1" 404 742
+2015-11-20 22:48:19,268 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 192.168.31.99
+2015-11-20 22:48:19,310 [requests.packages.urllib3.connectionpool] DEBUG: "GET /machines/view/windowsxp10 HTTP/1.1" 404 742
+2015-11-20 22:48:19,316 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 192.168.31.99
+2015-11-20 22:48:19,350 [requests.packages.urllib3.connectionpool] DEBUG: "GET /machines/view/windowsxp10 HTTP/1.1" 404 742
+2015-11-20 22:48:19,353 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 192.168.31.99
+2015-11-20 22:48:19,388 [requests.packages.urllib3.connectionpool] DEBUG: "GET /machines/view/windowsxp10 HTTP/1.1" 404 742
+2015-11-20 22:48:19,391 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 192.168.31.99
+2015-11-20 22:48:19,425 [requests.packages.urllib3.connectionpool] DEBUG: "GET /machines/view/windowsxp10 HTTP/1.1" 404 742
+2015-11-20 22:48:19,428 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 192.168.31.99
+2015-11-20 22:48:19,461 [requests.packages.urllib3.connectionpool] DEBUG: "GET /machines/view/windowsxp10 HTTP/1.1" 404 742
+2015-11-20 22:48:19,464 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 192.168.31.99
+2015-11-20 22:48:19,500 [requests.packages.urllib3.connectionpool] DEBUG: "GET /machines/view/windowsxp10 HTTP/1.1" 404 742
+2015-11-20 22:48:19,503 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 192.168.31.99
+2015-11-20 22:48:19,548 [requests.packages.urllib3.connectionpool] DEBUG: "GET /machines/view/windowsxp10 HTTP/1.1" 404 742
+2015-11-20 22:48:19,551 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 192.168.31.99
+2015-11-20 22:48:19,588 [requests.packages.urllib3.connectionpool] DEBUG: "GET /machines/view/windowsxp10 HTTP/1.1" 404 742
+2015-11-20 22:48:19,591 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 192.168.31.99
+2015-11-20 22:48:19,625 [requests.packages.urllib3.connectionpool] DEBUG: "GET /machines/view/windowsxp10 HTTP/1.1" 404 742
+2015-11-20 22:48:19,628 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 192.168.31.99
+2015-11-20 22:48:19,662 [requests.packages.urllib3.connectionpool] DEBUG: "GET /machines/view/windowsxp10 HTTP/1.1" 404 742
+2015-11-20 22:48:19,670 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 192.168.31.99
+2015-11-20 22:48:19,703 [requests.packages.urllib3.connectionpool] DEBUG: "GET /machines/view/windowsxp10 HTTP/1.1" 404 742
+2015-11-20 22:48:19,708 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 192.168.31.99
+2015-11-20 22:48:19,742 [requests.packages.urllib3.connectionpool] DEBUG: "GET /machines/view/windowsxp10 HTTP/1.1" 404 742
+2015-11-20 22:48:19,746 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 192.168.31.99
+2015-11-20 22:48:19,782 [requests.packages.urllib3.connectionpool] DEBUG: "GET /machines/view/windowsxp10 HTTP/1.1" 404 742
+2015-11-20 22:48:19,787 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 192.168.31.99
+2015-11-20 22:48:19,830 [requests.packages.urllib3.connectionpool] DEBUG: "GET /machines/view/windowsxp10 HTTP/1.1" 404 742
+2015-11-20 22:48:19,833 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 192.168.31.99
+2015-11-20 22:48:19,867 [requests.packages.urllib3.connectionpool] DEBUG: "GET /machines/view/windowsxp10 HTTP/1.1" 404 742
+2015-11-20 22:48:19,870 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 192.168.31.99
+2015-11-20 22:48:19,904 [requests.packages.urllib3.connectionpool] DEBUG: "GET /machines/view/windowsxp10 HTTP/1.1" 404 742
+2015-11-20 22:48:19,908 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 192.168.31.99
+2015-11-20 22:48:19,942 [requests.packages.urllib3.connectionpool] DEBUG: "GET /machines/view/windowsxp10 HTTP/1.1" 404 742
+2015-11-20 22:48:19,946 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 192.168.31.99
+2015-11-20 22:48:19,980 [requests.packages.urllib3.connectionpool] DEBUG: "GET /machines/view/windowsxp10 HTTP/1.1" 404 742
+2015-11-20 22:48:19,984 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 192.168.31.99
+2015-11-20 22:48:20,019 [requests.packages.urllib3.connectionpool] DEBUG: "GET /machines/view/windowsxp10 HTTP/1.1" 404 742
+2015-11-20 22:48:20,023 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 192.168.31.99
+2015-11-20 22:48:20,060 [requests.packages.urllib3.connectionpool] DEBUG: "GET /machines/view/windowsxp10 HTTP/1.1" 404 742
+2015-11-20 22:48:20,064 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 192.168.31.99
+2015-11-20 22:48:20,102 [requests.packages.urllib3.connectionpool] DEBUG: "GET /machines/view/windowsxp10 HTTP/1.1" 404 742
+2015-11-20 22:48:20,107 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 192.168.31.99
+2015-11-20 22:48:20,150 [requests.packages.urllib3.connectionpool] DEBUG: "GET /machines/view/windowsxp10 HTTP/1.1" 404 742
+2015-11-20 22:48:20,154 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 192.168.31.99
+2015-11-20 22:48:20,188 [requests.packages.urllib3.connectionpool] DEBUG: "GET /machines/view/windowsxp10 HTTP/1.1" 404 742
+2015-11-20 22:48:20,192 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 192.168.31.99
+2015-11-20 22:48:20,227 [requests.packages.urllib3.connectionpool] DEBUG: "GET /machines/view/windowsxp10 HTTP/1.1" 404 742
+2015-11-20 22:48:20,231 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 192.168.31.99
+2015-11-20 22:48:20,265 [requests.packages.urllib3.connectionpool] DEBUG: "GET /machines/view/windowsxp10 HTTP/1.1" 404 742
+2015-11-20 22:48:20,269 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 192.168.31.99
+2015-11-20 22:48:20,304 [requests.packages.urllib3.connectionpool] DEBUG: "GET /machines/view/windowsxp10 HTTP/1.1" 404 742
+2015-11-20 22:48:20,311 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 192.168.31.99
+2015-11-20 22:48:20,346 [requests.packages.urllib3.connectionpool] DEBUG: "GET /machines/view/windowsxp10 HTTP/1.1" 404 742
+2015-11-20 22:48:20,349 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 192.168.31.99
+2015-11-20 22:48:20,384 [requests.packages.urllib3.connectionpool] DEBUG: "GET /machines/view/windowsxp10 HTTP/1.1" 404 742
+2015-11-20 22:48:20,388 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 192.168.31.99
+2015-11-20 22:48:20,430 [requests.packages.urllib3.connectionpool] DEBUG: "GET /machines/view/windowsxp10 HTTP/1.1" 404 742
+2015-11-20 22:48:20,434 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 192.168.31.99
+2015-11-20 22:48:20,468 [requests.packages.urllib3.connectionpool] DEBUG: "GET /machines/view/windowsxp10 HTTP/1.1" 404 742
+2015-11-20 22:48:20,471 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 192.168.31.99
+2015-11-20 22:48:20,505 [requests.packages.urllib3.connectionpool] DEBUG: "GET /machines/view/windowsxp10 HTTP/1.1" 404 742
+2015-11-20 22:48:20,509 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 192.168.31.99
+2015-11-20 22:48:20,545 [requests.packages.urllib3.connectionpool] DEBUG: "GET /machines/view/windowsxp10 HTTP/1.1" 404 742
+2015-11-20 22:48:20,549 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 192.168.31.99
+2015-11-20 22:48:20,583 [requests.packages.urllib3.connectionpool] DEBUG: "GET /machines/view/windowsxp10 HTTP/1.1" 404 742
+2015-11-20 22:48:20,586 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 192.168.31.99
+2015-11-20 22:48:20,619 [requests.packages.urllib3.connectionpool] DEBUG: "GET /machines/view/windowsxp10 HTTP/1.1" 404 742
+2015-11-20 22:48:20,622 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 192.168.31.99
+2015-11-20 22:48:20,659 [requests.packages.urllib3.connectionpool] DEBUG: "GET /machines/view/windowsxp10 HTTP/1.1" 404 742
+2015-11-20 22:48:20,664 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 192.168.31.99
+2015-11-20 22:48:20,706 [requests.packages.urllib3.connectionpool] DEBUG: "GET /machines/view/windowsxp10 HTTP/1.1" 404 742
+2015-11-20 22:48:20,710 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 192.168.31.99
+2015-11-20 22:48:20,744 [requests.packages.urllib3.connectionpool] DEBUG: "GET /machines/view/windowsxp10 HTTP/1.1" 404 742
+2015-11-20 22:48:20,748 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 192.168.31.99
+2015-11-20 22:48:20,783 [requests.packages.urllib3.connectionpool] DEBUG: "GET /machines/view/windowsxp10 HTTP/1.1" 404 742
+2015-11-20 22:48:20,786 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 192.168.31.99
+2015-11-20 22:48:20,822 [requests.packages.urllib3.connectionpool] DEBUG: "GET /machines/view/windowsxp10 HTTP/1.1" 404 742
+2015-11-20 22:48:20,827 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 192.168.31.99
+2015-11-20 22:48:20,862 [requests.packages.urllib3.connectionpool] DEBUG: "GET /machines/view/windowsxp10 HTTP/1.1" 404 742
+2015-11-20 22:48:20,866 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 192.168.31.99
+2015-11-20 22:48:20,900 [requests.packages.urllib3.connectionpool] DEBUG: "GET /machines/view/windowsxp10 HTTP/1.1" 404 742
+2015-11-20 22:48:20,904 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 192.168.31.99
+2015-11-20 22:48:20,939 [requests.packages.urllib3.connectionpool] DEBUG: "GET /machines/view/windowsxp10 HTTP/1.1" 404 742
+2015-11-20 22:48:20,943 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 192.168.31.99
+2015-11-20 22:48:20,979 [requests.packages.urllib3.connectionpool] DEBUG: "GET /machines/view/windowsxp10 HTTP/1.1" 404 742
+2015-11-20 22:48:20,984 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 192.168.31.99
+2015-11-20 22:48:21,025 [requests.packages.urllib3.connectionpool] DEBUG: "GET /machines/view/windowsxp10 HTTP/1.1" 404 742
+2015-11-20 22:48:21,029 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 192.168.31.99
+2015-11-20 22:48:21,097 [requests.packages.urllib3.connectionpool] DEBUG: "GET /machines/view/windowsxp10 HTTP/1.1" 404 742
+2015-11-20 22:48:21,100 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 192.168.31.99
+2015-11-20 22:48:21,134 [requests.packages.urllib3.connectionpool] DEBUG: "GET /machines/view/windowsxp10 HTTP/1.1" 404 742
+2015-11-20 22:48:21,139 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 192.168.31.99
+2015-11-20 22:48:21,173 [requests.packages.urllib3.connectionpool] DEBUG: "GET /machines/view/windowsxp10 HTTP/1.1" 404 742
+2015-11-20 22:48:21,177 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 192.168.31.99
+2015-11-20 22:48:21,211 [requests.packages.urllib3.connectionpool] DEBUG: "GET /machines/view/windowsxp10 HTTP/1.1" 404 742
+2015-11-20 22:48:21,216 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 192.168.31.99
+2015-11-20 22:48:21,250 [requests.packages.urllib3.connectionpool] DEBUG: "GET /machines/view/windowsxp10 HTTP/1.1" 404 742
+2015-11-20 22:48:21,253 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 192.168.31.99
+2015-11-20 22:48:21,288 [requests.packages.urllib3.connectionpool] DEBUG: "GET /machines/view/windowsxp10 HTTP/1.1" 404 742
+2015-11-20 22:48:21,293 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 192.168.31.99
+2015-11-20 22:48:21,332 [requests.packages.urllib3.connectionpool] DEBUG: "GET /machines/view/windowsxp10 HTTP/1.1" 404 742
+2015-11-20 22:48:21,336 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 192.168.31.99
+2015-11-20 22:48:21,370 [requests.packages.urllib3.connectionpool] DEBUG: "GET /machines/view/windowsxp10 HTTP/1.1" 404 742
+2015-11-20 22:48:21,374 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 192.168.31.99
+2015-11-20 22:48:21,408 [requests.packages.urllib3.connectionpool] DEBUG: "GET /machines/view/windowsxp10 HTTP/1.1" 404 742
+2015-11-20 22:48:21,413 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 192.168.31.99
+2015-11-20 22:48:21,448 [requests.packages.urllib3.connectionpool] DEBUG: "GET /machines/view/windowsxp10 HTTP/1.1" 404 742
+2015-11-20 22:48:21,452 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 192.168.31.99
+2015-11-20 22:48:21,487 [requests.packages.urllib3.connectionpool] DEBUG: "GET /machines/view/windowsxp10 HTTP/1.1" 404 742
+2015-11-20 22:48:21,491 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 192.168.31.99
+2015-11-20 22:48:21,525 [requests.packages.urllib3.connectionpool] DEBUG: "GET /machines/view/windowsxp10 HTTP/1.1" 404 742
+2015-11-20 22:48:21,529 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 192.168.31.99
+2015-11-20 22:48:21,563 [requests.packages.urllib3.connectionpool] DEBUG: "GET /machines/view/windowsxp10 HTTP/1.1" 404 742
+2015-11-20 22:48:21,569 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 192.168.31.99
+2015-11-20 22:48:21,609 [requests.packages.urllib3.connectionpool] DEBUG: "GET /machines/view/windowsxp10 HTTP/1.1" 404 742
+2015-11-20 22:48:21,613 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 192.168.31.99
+2015-11-20 22:48:21,654 [requests.packages.urllib3.connectionpool] DEBUG: "GET /machines/view/windowsxp10 HTTP/1.1" 404 742
+2015-11-20 22:48:21,658 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 192.168.31.99
+2015-11-20 22:48:21,693 [requests.packages.urllib3.connectionpool] DEBUG: "GET /machines/view/windowsxp10 HTTP/1.1" 404 742
+2015-11-20 22:48:21,697 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 192.168.31.99
+2015-11-20 22:48:21,731 [requests.packages.urllib3.connectionpool] DEBUG: "GET /machines/view/windowsxp10 HTTP/1.1" 404 742
+2015-11-20 22:48:21,734 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 192.168.31.99
+2015-11-20 22:48:21,767 [requests.packages.urllib3.connectionpool] DEBUG: "GET /machines/view/windowsxp10 HTTP/1.1" 404 742
+2015-11-20 22:48:21,770 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 192.168.31.99
+2015-11-20 22:48:21,805 [requests.packages.urllib3.connectionpool] DEBUG: "GET /machines/view/windowsxp10 HTTP/1.1" 404 742
+2015-11-20 22:48:21,812 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 192.168.31.99
+2015-11-20 22:48:21,847 [requests.packages.urllib3.connectionpool] DEBUG: "GET /machines/view/windowsxp10 HTTP/1.1" 404 742
+2015-11-20 22:48:21,850 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 192.168.31.99
+2015-11-20 22:48:21,891 [requests.packages.urllib3.connectionpool] DEBUG: "GET /machines/view/windowsxp10 HTTP/1.1" 404 742
+2015-11-20 22:48:21,896 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 192.168.31.99
+2015-11-20 22:48:21,930 [requests.packages.urllib3.connectionpool] DEBUG: "GET /machines/view/windowsxp10 HTTP/1.1" 404 742
+2015-11-20 22:48:21,932 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 192.168.31.99
+2015-11-20 22:48:21,967 [requests.packages.urllib3.connectionpool] DEBUG: "GET /machines/view/windowsxp10 HTTP/1.1" 404 742
+2015-11-20 22:48:21,970 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 192.168.31.99
+2015-11-20 22:48:22,004 [requests.packages.urllib3.connectionpool] DEBUG: "GET /machines/view/windowsxp10 HTTP/1.1" 404 742
+2015-11-20 22:48:22,008 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 192.168.31.99
+2015-11-20 22:48:22,042 [requests.packages.urllib3.connectionpool] DEBUG: "GET /machines/view/windowsxp10 HTTP/1.1" 404 742
+2015-11-20 22:48:22,047 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 192.168.31.99
+2015-11-20 22:48:22,081 [requests.packages.urllib3.connectionpool] DEBUG: "GET /machines/view/windowsxp10 HTTP/1.1" 404 742
+2015-11-20 22:48:22,084 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 192.168.31.99
+2015-11-20 22:48:22,118 [requests.packages.urllib3.connectionpool] DEBUG: "GET /machines/view/windowsxp10 HTTP/1.1" 404 742
+2015-11-20 22:48:22,123 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 192.168.31.99
+2015-11-20 22:48:22,157 [requests.packages.urllib3.connectionpool] DEBUG: "GET /machines/view/windowsxp10 HTTP/1.1" 404 742
+2015-11-20 22:48:22,163 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 192.168.31.99
+2015-11-20 22:48:22,204 [requests.packages.urllib3.connectionpool] DEBUG: "GET /machines/view/windowsxp10 HTTP/1.1" 404 742
+2015-11-20 22:48:22,208 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 192.168.31.99
+2015-11-20 22:48:22,242 [requests.packages.urllib3.connectionpool] DEBUG: "GET /machines/view/windowsxp10 HTTP/1.1" 404 742
+2015-11-20 22:48:22,246 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 192.168.31.99
+2015-11-20 22:48:22,282 [requests.packages.urllib3.connectionpool] DEBUG: "GET /machines/view/windowsxp10 HTTP/1.1" 404 742
+2015-11-20 22:48:22,285 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 192.168.31.99
+2015-11-20 22:48:22,319 [requests.packages.urllib3.connectionpool] DEBUG: "GET /machines/view/windowsxp10 HTTP/1.1" 404 742
+2015-11-20 22:48:22,322 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 192.168.31.99
+2015-11-20 22:48:22,356 [requests.packages.urllib3.connectionpool] DEBUG: "GET /machines/view/windowsxp10 HTTP/1.1" 404 742
+2015-11-20 22:48:22,360 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 192.168.31.99
+2015-11-20 22:48:22,395 [requests.packages.urllib3.connectionpool] DEBUG: "GET /machines/view/windowsxp10 HTTP/1.1" 404 742
+2015-11-20 22:48:22,400 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 192.168.31.99
+2015-11-20 22:48:22,435 [requests.packages.urllib3.connectionpool] DEBUG: "GET /machines/view/windowsxp10 HTTP/1.1" 404 742
+2015-11-20 22:48:22,439 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 192.168.31.99
+2015-11-20 22:48:22,480 [requests.packages.urllib3.connectionpool] DEBUG: "GET /machines/view/windowsxp10 HTTP/1.1" 404 742
+2015-11-20 22:48:22,488 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 192.168.31.99
+2015-11-20 22:48:22,529 [requests.packages.urllib3.connectionpool] DEBUG: "GET /machines/view/windowsxp10 HTTP/1.1" 404 742
+2015-11-20 22:48:22,534 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 192.168.31.99
+2015-11-20 22:48:22,568 [requests.packages.urllib3.connectionpool] DEBUG: "GET /machines/view/windowsxp10 HTTP/1.1" 404 742
+2015-11-20 22:48:22,572 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 192.168.31.99
+2015-11-20 22:48:22,606 [requests.packages.urllib3.connectionpool] DEBUG: "GET /machines/view/windowsxp10 HTTP/1.1" 404 742
+2015-11-20 22:48:22,610 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 192.168.31.99
+2015-11-20 22:48:22,648 [requests.packages.urllib3.connectionpool] DEBUG: "GET /machines/view/windowsxp10 HTTP/1.1" 404 742
+2015-11-20 22:48:22,653 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 192.168.31.99
+2015-11-20 22:48:22,688 [requests.packages.urllib3.connectionpool] DEBUG: "GET /machines/view/windowsxp10 HTTP/1.1" 404 742
+2015-11-20 22:48:22,692 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 192.168.31.99
+2015-11-20 22:48:22,728 [requests.packages.urllib3.connectionpool] DEBUG: "GET /machines/view/windowsxp10 HTTP/1.1" 404 742
+2015-11-20 22:48:22,733 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 192.168.31.99
+2015-11-20 22:48:22,774 [requests.packages.urllib3.connectionpool] DEBUG: "GET /machines/view/windowsxp10 HTTP/1.1" 404 742
+2015-11-20 22:48:22,777 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 192.168.31.99
+2015-11-20 22:48:22,819 [requests.packages.urllib3.connectionpool] DEBUG: "GET /machines/view/windowsxp10 HTTP/1.1" 404 742
+2015-11-20 22:48:22,823 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 192.168.31.99
+2015-11-20 22:48:22,858 [requests.packages.urllib3.connectionpool] DEBUG: "GET /machines/view/windowsxp10 HTTP/1.1" 404 742
+2015-11-20 22:48:22,861 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 192.168.31.99
+2015-11-20 22:48:22,895 [requests.packages.urllib3.connectionpool] DEBUG: "GET /machines/view/windowsxp10 HTTP/1.1" 404 742
+2015-11-20 22:48:22,899 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 192.168.31.99
+2015-11-20 22:48:22,934 [requests.packages.urllib3.connectionpool] DEBUG: "GET /machines/view/windowsxp10 HTTP/1.1" 404 742
+2015-11-20 22:48:22,941 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 192.168.31.99
+2015-11-20 22:48:22,975 [requests.packages.urllib3.connectionpool] DEBUG: "GET /machines/view/windowsxp10 HTTP/1.1" 404 742
+2015-11-20 22:48:22,980 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 192.168.31.99
+2015-11-20 22:48:23,015 [requests.packages.urllib3.connectionpool] DEBUG: "GET /machines/view/windowsxp10 HTTP/1.1" 404 742
+2015-11-20 22:48:23,019 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 192.168.31.99
+2015-11-20 22:48:23,053 [requests.packages.urllib3.connectionpool] DEBUG: "GET /machines/view/windowsxp10 HTTP/1.1" 404 742
+2015-11-20 22:48:23,058 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 192.168.31.99
+2015-11-20 22:48:23,098 [requests.packages.urllib3.connectionpool] DEBUG: "GET /machines/view/windowsxp10 HTTP/1.1" 404 742
+2015-11-20 22:48:23,101 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 192.168.31.99
+2015-11-20 22:48:23,136 [requests.packages.urllib3.connectionpool] DEBUG: "GET /machines/view/windowsxp10 HTTP/1.1" 404 742
+2015-11-20 22:48:23,139 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 192.168.31.99
+2015-11-20 22:48:23,174 [requests.packages.urllib3.connectionpool] DEBUG: "GET /machines/view/windowsxp10 HTTP/1.1" 404 742
+2015-11-20 22:48:23,177 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 192.168.31.99
+2015-11-20 22:48:23,211 [requests.packages.urllib3.connectionpool] DEBUG: "GET /machines/view/windowsxp10 HTTP/1.1" 404 742
+2015-11-20 22:48:23,215 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 192.168.31.99
+2015-11-20 22:48:23,249 [requests.packages.urllib3.connectionpool] DEBUG: "GET /machines/view/windowsxp10 HTTP/1.1" 404 742
+2015-11-20 22:48:23,253 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 192.168.31.99
+2015-11-20 22:48:23,288 [requests.packages.urllib3.connectionpool] DEBUG: "GET /machines/view/windowsxp10 HTTP/1.1" 404 742
+2015-11-20 22:48:23,292 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 192.168.31.99
+2015-11-20 22:48:23,326 [requests.packages.urllib3.connectionpool] DEBUG: "GET /machines/view/windowsxp10 HTTP/1.1" 404 742
+2015-11-20 22:48:23,330 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 192.168.31.99
+2015-11-20 22:48:23,370 [requests.packages.urllib3.connectionpool] DEBUG: "GET /machines/view/windowsxp10 HTTP/1.1" 404 742
+2015-11-20 22:48:23,374 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 192.168.31.99
+2015-11-20 22:48:23,408 [requests.packages.urllib3.connectionpool] DEBUG: "GET /machines/view/windowsxp10 HTTP/1.1" 404 742
+2015-11-20 22:48:23,412 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 192.168.31.99
+2015-11-20 22:48:23,447 [requests.packages.urllib3.connectionpool] DEBUG: "GET /machines/view/windowsxp10 HTTP/1.1" 404 742
+2015-11-20 22:48:23,450 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 192.168.31.99
+2015-11-20 22:48:23,483 [requests.packages.urllib3.connectionpool] DEBUG: "GET /machines/view/windowsxp10 HTTP/1.1" 404 742
+2015-11-20 22:48:23,487 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 192.168.31.99
+2015-11-20 22:48:23,521 [requests.packages.urllib3.connectionpool] DEBUG: "GET /machines/view/windowsxp10 HTTP/1.1" 404 742
+2015-11-20 22:48:23,524 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 192.168.31.99
+2015-11-20 22:48:23,560 [requests.packages.urllib3.connectionpool] DEBUG: "GET /machines/view/windowsxp10 HTTP/1.1" 404 742
+2015-11-20 22:48:23,564 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 192.168.31.99
+2015-11-20 22:48:23,598 [requests.packages.urllib3.connectionpool] DEBUG: "GET /machines/view/windowsxp10 HTTP/1.1" 404 742
+2015-11-20 22:48:23,602 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 192.168.31.99
+2015-11-20 22:48:23,637 [requests.packages.urllib3.connectionpool] DEBUG: "GET /machines/view/windowsxp10 HTTP/1.1" 404 742
+2015-11-20 22:48:23,640 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 192.168.31.99
+2015-11-20 22:48:23,682 [requests.packages.urllib3.connectionpool] DEBUG: "GET /machines/view/windowsxp10 HTTP/1.1" 404 742
+2015-11-20 22:48:23,687 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 192.168.31.99
+2015-11-20 22:48:23,721 [requests.packages.urllib3.connectionpool] DEBUG: "GET /machines/view/windowsxp10 HTTP/1.1" 404 742
+2015-11-20 22:48:23,726 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 192.168.31.99
+2015-11-20 22:48:23,760 [requests.packages.urllib3.connectionpool] DEBUG: "GET /machines/view/windowsxp10 HTTP/1.1" 404 742
+2015-11-20 22:48:23,765 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 192.168.31.99
+2015-11-20 22:48:23,800 [requests.packages.urllib3.connectionpool] DEBUG: "GET /machines/view/windowsxp10 HTTP/1.1" 404 742
+2015-11-20 22:48:23,804 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 192.168.31.99
+2015-11-20 22:48:23,837 [requests.packages.urllib3.connectionpool] DEBUG: "GET /machines/view/windowsxp10 HTTP/1.1" 404 742
+2015-11-20 22:48:23,841 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 192.168.31.99
+2015-11-20 22:48:23,884 [requests.packages.urllib3.connectionpool] DEBUG: "GET /machines/view/windowsxp10 HTTP/1.1" 404 742
+2015-11-20 22:48:23,887 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 192.168.31.99
+2015-11-20 22:48:23,922 [requests.packages.urllib3.connectionpool] DEBUG: "GET /machines/view/windowsxp10 HTTP/1.1" 404 742
+2015-11-20 22:48:23,925 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 192.168.31.99
+2015-11-20 22:48:23,965 [requests.packages.urllib3.connectionpool] DEBUG: "GET /machines/view/windowsxp10 HTTP/1.1" 404 742
+2015-11-20 22:48:23,970 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 192.168.31.99
+2015-11-20 22:48:24,005 [requests.packages.urllib3.connectionpool] DEBUG: "GET /machines/view/windowsxp10 HTTP/1.1" 404 742
+2015-11-20 22:48:24,009 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 192.168.31.99
+2015-11-20 22:48:24,044 [requests.packages.urllib3.connectionpool] DEBUG: "GET /machines/view/windowsxp10 HTTP/1.1" 404 742
+2015-11-20 22:48:24,048 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 192.168.31.99
+2015-11-20 22:48:24,083 [requests.packages.urllib3.connectionpool] DEBUG: "GET /machines/view/windowsxp10 HTTP/1.1" 404 742
+2015-11-20 22:48:24,086 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 192.168.31.99
+2015-11-20 22:48:24,120 [requests.packages.urllib3.connectionpool] DEBUG: "GET /machines/view/windowsxp10 HTTP/1.1" 404 742
+2015-11-20 22:48:24,123 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 192.168.31.99
+2015-11-20 22:48:24,159 [requests.packages.urllib3.connectionpool] DEBUG: "GET /machines/view/windowsxp10 HTTP/1.1" 404 742
+2015-11-20 22:48:24,163 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 192.168.31.99
+2015-11-20 22:48:24,197 [requests.packages.urllib3.connectionpool] DEBUG: "GET /machines/view/windowsxp10 HTTP/1.1" 404 742
+2015-11-20 22:48:24,202 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 192.168.31.99
+2015-11-20 22:48:24,235 [requests.packages.urllib3.connectionpool] DEBUG: "GET /machines/view/windowsxp10 HTTP/1.1" 404 742
+2015-11-20 22:48:24,240 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 192.168.31.99
+2015-11-20 22:48:24,310 [requests.packages.urllib3.connectionpool] DEBUG: "GET /machines/view/windowsxp10 HTTP/1.1" 404 742
+2015-11-20 22:48:24,317 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 192.168.31.99
+2015-11-20 22:48:24,351 [requests.packages.urllib3.connectionpool] DEBUG: "GET /machines/view/windowsxp10 HTTP/1.1" 404 742
+2015-11-20 22:48:24,355 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 192.168.31.99
+2015-11-20 22:48:24,389 [requests.packages.urllib3.connectionpool] DEBUG: "GET /machines/view/windowsxp10 HTTP/1.1" 404 742
+2015-11-20 22:48:24,394 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 192.168.31.99
+2015-11-20 22:48:24,429 [requests.packages.urllib3.connectionpool] DEBUG: "GET /machines/view/windowsxp10 HTTP/1.1" 404 742
+2015-11-20 22:48:24,433 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 192.168.31.99
+2015-11-20 22:48:24,467 [requests.packages.urllib3.connectionpool] DEBUG: "GET /machines/view/windowsxp10 HTTP/1.1" 404 742
+2015-11-20 22:48:24,471 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 192.168.31.99
+2015-11-20 22:48:24,505 [requests.packages.urllib3.connectionpool] DEBUG: "GET /machines/view/windowsxp10 HTTP/1.1" 404 742
+2015-11-20 22:48:24,509 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 192.168.31.99
+2015-11-20 22:48:24,548 [requests.packages.urllib3.connectionpool] DEBUG: "GET /machines/view/windowsxp10 HTTP/1.1" 404 742
+2015-11-20 22:48:24,553 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 192.168.31.99
+2015-11-20 22:48:24,587 [requests.packages.urllib3.connectionpool] DEBUG: "GET /machines/view/windowsxp10 HTTP/1.1" 404 742
+2015-11-20 22:48:24,591 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 192.168.31.99
+2015-11-20 22:48:24,626 [requests.packages.urllib3.connectionpool] DEBUG: "GET /machines/view/windowsxp10 HTTP/1.1" 404 742
+2015-11-20 22:48:24,630 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 192.168.31.99
+2015-11-20 22:48:24,664 [requests.packages.urllib3.connectionpool] DEBUG: "GET /machines/view/windowsxp10 HTTP/1.1" 404 742
+2015-11-20 22:48:24,668 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 192.168.31.99
+2015-11-20 22:48:24,702 [requests.packages.urllib3.connectionpool] DEBUG: "GET /machines/view/windowsxp10 HTTP/1.1" 404 742
+2015-11-20 22:48:24,706 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 192.168.31.99
+2015-11-20 22:48:24,740 [requests.packages.urllib3.connectionpool] DEBUG: "GET /machines/view/windowsxp10 HTTP/1.1" 404 742
+2015-11-20 22:48:24,744 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 192.168.31.99
+2015-11-20 22:48:24,778 [requests.packages.urllib3.connectionpool] DEBUG: "GET /machines/view/windowsxp10 HTTP/1.1" 404 742
+2015-11-20 22:48:24,782 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 192.168.31.99
+2015-11-20 22:48:24,816 [requests.packages.urllib3.connectionpool] DEBUG: "GET /machines/view/windowsxp10 HTTP/1.1" 404 742
+2015-11-20 22:48:24,820 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 192.168.31.99
+2015-11-20 22:48:24,861 [requests.packages.urllib3.connectionpool] DEBUG: "GET /machines/view/windowsxp10 HTTP/1.1" 404 742
+2015-11-20 22:48:24,865 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 192.168.31.99
+2015-11-20 22:48:24,898 [requests.packages.urllib3.connectionpool] DEBUG: "GET /machines/view/windowsxp10 HTTP/1.1" 404 742
+2015-11-20 22:48:24,903 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 192.168.31.99
+2015-11-20 22:48:24,937 [requests.packages.urllib3.connectionpool] DEBUG: "GET /machines/view/windowsxp10 HTTP/1.1" 404 742
+2015-11-20 22:48:24,943 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 192.168.31.99
+2015-11-20 22:48:24,978 [requests.packages.urllib3.connectionpool] DEBUG: "GET /machines/view/windowsxp10 HTTP/1.1" 404 742
+2015-11-20 22:48:24,980 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 192.168.31.99
+2015-11-20 22:48:25,014 [requests.packages.urllib3.connectionpool] DEBUG: "GET /machines/view/windowsxp10 HTTP/1.1" 404 742
+2015-11-20 22:48:25,017 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 192.168.31.99
+2015-11-20 22:48:25,052 [requests.packages.urllib3.connectionpool] DEBUG: "GET /machines/view/windowsxp10 HTTP/1.1" 404 742
+2015-11-20 22:48:25,057 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 192.168.31.99
+2015-11-20 22:48:25,091 [requests.packages.urllib3.connectionpool] DEBUG: "GET /machines/view/windowsxp10 HTTP/1.1" 404 742
+2015-11-20 22:48:25,094 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 192.168.31.99
+2015-11-20 22:48:25,134 [requests.packages.urllib3.connectionpool] DEBUG: "GET /machines/view/windowsxp10 HTTP/1.1" 404 742
+2015-11-20 22:48:25,138 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 192.168.31.99
+2015-11-20 22:48:25,174 [requests.packages.urllib3.connectionpool] DEBUG: "GET /machines/view/windowsxp10 HTTP/1.1" 404 742
+2015-11-20 22:48:25,178 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 192.168.31.99
+2015-11-20 22:48:25,211 [requests.packages.urllib3.connectionpool] DEBUG: "GET /machines/view/windowsxp10 HTTP/1.1" 404 742
+2015-11-20 22:48:25,215 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 192.168.31.99
+2015-11-20 22:48:25,250 [requests.packages.urllib3.connectionpool] DEBUG: "GET /machines/view/windowsxp10 HTTP/1.1" 404 742
+2015-11-20 22:48:25,254 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 192.168.31.99
+2015-11-20 22:48:25,290 [requests.packages.urllib3.connectionpool] DEBUG: "GET /machines/view/windowsxp10 HTTP/1.1" 404 742
+2015-11-20 22:48:25,294 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 192.168.31.99
+2015-11-20 22:48:25,327 [requests.packages.urllib3.connectionpool] DEBUG: "GET /machines/view/windowsxp10 HTTP/1.1" 404 742
+2015-11-20 22:48:25,331 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 192.168.31.99
+2015-11-20 22:48:25,366 [requests.packages.urllib3.connectionpool] DEBUG: "GET /machines/view/windowsxp10 HTTP/1.1" 404 742
+2015-11-20 22:48:25,370 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 192.168.31.99
+2015-11-20 22:48:25,412 [requests.packages.urllib3.connectionpool] DEBUG: "GET /machines/view/windowsxp10 HTTP/1.1" 404 742
+2015-11-20 22:48:25,417 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 192.168.31.99
+2015-11-20 22:48:25,452 [requests.packages.urllib3.connectionpool] DEBUG: "GET /machines/view/windowsxp10 HTTP/1.1" 404 742
+2015-11-20 22:48:25,457 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 192.168.31.99
+2015-11-20 22:48:25,491 [requests.packages.urllib3.connectionpool] DEBUG: "GET /machines/view/windowsxp10 HTTP/1.1" 404 742
+2015-11-20 22:48:25,495 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 192.168.31.99
+2015-11-20 22:48:25,529 [requests.packages.urllib3.connectionpool] DEBUG: "GET /machines/view/windowsxp10 HTTP/1.1" 404 742
+2015-11-20 22:48:25,533 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 192.168.31.99
+2015-11-20 22:48:25,568 [requests.packages.urllib3.connectionpool] DEBUG: "GET /machines/view/windowsxp10 HTTP/1.1" 404 742
+2015-11-20 22:48:25,574 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 192.168.31.99
+2015-11-20 22:48:25,608 [requests.packages.urllib3.connectionpool] DEBUG: "GET /machines/view/windowsxp10 HTTP/1.1" 404 742
+2015-11-20 22:48:25,613 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 192.168.31.99
+2015-11-20 22:48:25,647 [requests.packages.urllib3.connectionpool] DEBUG: "GET /machines/view/windowsxp10 HTTP/1.1" 404 742
+2015-11-20 22:48:25,652 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 192.168.31.99
+2015-11-20 22:48:25,686 [requests.packages.urllib3.connectionpool] DEBUG: "GET /machines/view/windowsxp10 HTTP/1.1" 404 742
+2015-11-20 22:48:25,691 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 192.168.31.99
+2015-11-20 22:48:25,731 [requests.packages.urllib3.connectionpool] DEBUG: "GET /machines/view/windowsxp10 HTTP/1.1" 404 742
+2015-11-20 22:48:25,735 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 192.168.31.99
+2015-11-20 22:48:25,771 [requests.packages.urllib3.connectionpool] DEBUG: "GET /machines/view/windowsxp10 HTTP/1.1" 404 742
+2015-11-20 22:48:25,776 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 192.168.31.99
+2015-11-20 22:48:25,811 [requests.packages.urllib3.connectionpool] DEBUG: "GET /machines/view/windowsxp10 HTTP/1.1" 404 742
+2015-11-20 22:48:25,814 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 192.168.31.99
+2015-11-20 22:48:25,848 [requests.packages.urllib3.connectionpool] DEBUG: "GET /machines/view/windowsxp10 HTTP/1.1" 404 742
+2015-11-20 22:48:25,852 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 192.168.31.99
+2015-11-20 22:48:25,886 [requests.packages.urllib3.connectionpool] DEBUG: "GET /machines/view/windowsxp10 HTTP/1.1" 404 742
+2015-11-20 22:48:25,890 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 192.168.31.99
+2015-11-20 22:48:25,924 [requests.packages.urllib3.connectionpool] DEBUG: "GET /machines/view/windowsxp10 HTTP/1.1" 404 742
+2015-11-20 22:48:25,928 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 192.168.31.99
+2015-11-20 22:48:25,962 [requests.packages.urllib3.connectionpool] DEBUG: "GET /machines/view/windowsxp10 HTTP/1.1" 404 742
+2015-11-20 22:48:25,966 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 192.168.31.99
+2015-11-20 22:48:26,007 [requests.packages.urllib3.connectionpool] DEBUG: "GET /machines/view/windowsxp10 HTTP/1.1" 404 742
+2015-11-20 22:48:26,012 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 192.168.31.99
+2015-11-20 22:48:26,048 [requests.packages.urllib3.connectionpool] DEBUG: "GET /machines/view/windowsxp10 HTTP/1.1" 404 742
+2015-11-20 22:48:26,053 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 192.168.31.99
+2015-11-20 22:48:26,087 [requests.packages.urllib3.connectionpool] DEBUG: "GET /machines/view/windowsxp10 HTTP/1.1" 404 742
+2015-11-20 22:48:26,089 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 192.168.31.99
+2015-11-20 22:48:26,124 [requests.packages.urllib3.connectionpool] DEBUG: "GET /machines/view/windowsxp10 HTTP/1.1" 404 742
+2015-11-20 22:48:26,127 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 192.168.31.99
+2015-11-20 22:48:26,160 [requests.packages.urllib3.connectionpool] DEBUG: "GET /machines/view/windowsxp10 HTTP/1.1" 404 742
+2015-11-20 22:48:26,164 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 192.168.31.99
+2015-11-20 22:48:26,199 [requests.packages.urllib3.connectionpool] DEBUG: "GET /machines/view/windowsxp10 HTTP/1.1" 404 742
+2015-11-20 22:48:26,203 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 192.168.31.99
+2015-11-20 22:48:26,238 [requests.packages.urllib3.connectionpool] DEBUG: "GET /machines/view/windowsxp10 HTTP/1.1" 404 742
+2015-11-20 22:48:26,243 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 192.168.31.99
+2015-11-20 22:48:26,285 [requests.packages.urllib3.connectionpool] DEBUG: "GET /machines/view/windowsxp10 HTTP/1.1" 404 742
+2015-11-20 22:48:26,290 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 192.168.31.99
+2015-11-20 22:48:26,324 [requests.packages.urllib3.connectionpool] DEBUG: "GET /machines/view/windowsxp10 HTTP/1.1" 404 742
+2015-11-20 22:48:26,328 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 192.168.31.99
+2015-11-20 22:48:26,362 [requests.packages.urllib3.connectionpool] DEBUG: "GET /machines/view/windowsxp10 HTTP/1.1" 404 742
+2015-11-20 22:48:26,366 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 192.168.31.99
+2015-11-20 22:48:26,400 [requests.packages.urllib3.connectionpool] DEBUG: "GET /machines/view/windowsxp10 HTTP/1.1" 404 742
+2015-11-20 22:48:26,404 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 192.168.31.99
+2015-11-20 22:48:26,438 [requests.packages.urllib3.connectionpool] DEBUG: "GET /machines/view/windowsxp10 HTTP/1.1" 404 742
+2015-11-20 22:48:26,441 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 192.168.31.99
+2015-11-20 22:48:26,476 [requests.packages.urllib3.connectionpool] DEBUG: "GET /machines/view/windowsxp10 HTTP/1.1" 404 742
+2015-11-20 22:48:26,480 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 192.168.31.99
+2015-11-20 22:48:26,514 [requests.packages.urllib3.connectionpool] DEBUG: "GET /machines/view/windowsxp10 HTTP/1.1" 404 742
+2015-11-20 22:48:26,517 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 192.168.31.99
+2015-11-20 22:48:26,553 [requests.packages.urllib3.connectionpool] DEBUG: "GET /machines/view/windowsxp10 HTTP/1.1" 404 742
+2015-11-20 22:48:26,556 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 192.168.31.99
+2015-11-20 22:48:26,598 [requests.packages.urllib3.connectionpool] DEBUG: "GET /machines/view/windowsxp10 HTTP/1.1" 404 742
+2015-11-20 22:48:26,601 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 192.168.31.99
+2015-11-20 22:48:26,635 [requests.packages.urllib3.connectionpool] DEBUG: "GET /machines/view/windowsxp10 HTTP/1.1" 404 742
+2015-11-20 22:48:26,638 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 192.168.31.99
+2015-11-20 22:48:26,673 [requests.packages.urllib3.connectionpool] DEBUG: "GET /machines/view/windowsxp10 HTTP/1.1" 404 742
+2015-11-20 22:48:26,678 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 192.168.31.99
+2015-11-20 22:48:26,713 [requests.packages.urllib3.connectionpool] DEBUG: "GET /machines/view/windowsxp10 HTTP/1.1" 404 742
+2015-11-20 22:48:26,715 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 192.168.31.99
+2015-11-20 22:48:26,749 [requests.packages.urllib3.connectionpool] DEBUG: "GET /machines/view/windowsxp10 HTTP/1.1" 404 742
+2015-11-20 22:48:26,752 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 192.168.31.99
+2015-11-20 22:48:26,788 [requests.packages.urllib3.connectionpool] DEBUG: "GET /machines/view/windowsxp10 HTTP/1.1" 404 742
+2015-11-20 22:48:26,796 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 192.168.31.99
+2015-11-20 22:48:26,834 [requests.packages.urllib3.connectionpool] DEBUG: "GET /machines/view/windowsxp10 HTTP/1.1" 404 742
+2015-11-20 22:48:26,837 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 192.168.31.99
+2015-11-20 22:48:26,878 [requests.packages.urllib3.connectionpool] DEBUG: "GET /machines/view/windowsxp10 HTTP/1.1" 404 742
+2015-11-20 22:48:26,882 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 192.168.31.99
+2015-11-20 22:48:26,919 [requests.packages.urllib3.connectionpool] DEBUG: "GET /machines/view/windowsxp10 HTTP/1.1" 404 742
+2015-11-20 22:48:26,923 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 192.168.31.99
+2015-11-20 22:48:26,957 [requests.packages.urllib3.connectionpool] DEBUG: "GET /machines/view/windowsxp10 HTTP/1.1" 404 742
+2015-11-20 22:48:26,962 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 192.168.31.99
+2015-11-20 22:48:26,997 [requests.packages.urllib3.connectionpool] DEBUG: "GET /machines/view/windowsxp10 HTTP/1.1" 404 742
+2015-11-20 22:48:27,002 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 192.168.31.99
+2015-11-20 22:48:27,038 [requests.packages.urllib3.connectionpool] DEBUG: "GET /machines/view/windowsxp10 HTTP/1.1" 404 742
+2015-11-20 22:48:27,042 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 192.168.31.99
+2015-11-20 22:48:27,077 [requests.packages.urllib3.connectionpool] DEBUG: "GET /machines/view/windowsxp10 HTTP/1.1" 404 742
+2015-11-20 22:48:27,080 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 192.168.31.99
+2015-11-20 22:48:27,115 [requests.packages.urllib3.connectionpool] DEBUG: "GET /machines/view/windowsxp10 HTTP/1.1" 404 742
+2015-11-20 22:48:27,118 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 192.168.31.99
+2015-11-20 22:48:27,161 [requests.packages.urllib3.connectionpool] DEBUG: "GET /machines/view/windowsxp10 HTTP/1.1" 404 742
+2015-11-20 22:48:27,165 [requests.packages.urllib3.connectionpool] INFO: Starting new HTTP connection (1): 192.168.31.99
+2015-11-20 23:29:11,909 [lib.cuckoomx.core.checking] CRITICAL: Mail 1, task 2 have something wrong
+2015-11-20 23:29:34,767 [lib.cuckoomx.core.checking] CRITICAL: Mail 1, task 1 has malware
+2015-11-20 23:31:31,091 [lib.cuckoomx.core.checking] CRITICAL: Mail 1, task 8 has malware
+2015-11-20 23:33:21,259 [lib.cuckoomx.core.checking] CRITICAL: Mail 1, task 5 has malware
+2015-11-20 23:33:50,732 [lib.cuckoomx.core.checking] CRITICAL: Mail 1, task 7 has malware

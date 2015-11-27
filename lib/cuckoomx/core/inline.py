@@ -3,9 +3,6 @@
 # This file is part of Cuckoo Sandbox - http://www.cuckoosandbox.org
 # See the file 'docs/LICENSE' for copying permission.
 
-import os
-import time
-import fnmatch
 import logging
 
 from lib.cuckoomx.core.mail import Mail
@@ -14,17 +11,15 @@ from lib.cuckoomx.common.config import Config
 
 log = logging.getLogger(__name__)
 
-def offside():
-    """This is an offside mode of CuckooMX
+def inline():
+    """This is an inline mode of CuckooMX
 
-    In this mode, CuckooMX will find and analyze mails are stored on hard
-    disk (ext .msg). With this mode, CuckooMX will not affect Mail service.
-    Please note that CuckooMX need permission to access storage folder of Mail
-    service, it don't need write permission
+    In this mode, CuckooMX will capture, extract and analyze mails are
+    transferring on traffic. Please not that with this mode, CuckooMX maybe
+    affect Mail service, so we recommend using SPAN port.
     """
     cfg = Config("cuckoomx")
-    enabled = cfg.offside.get("enalbed")
-    store = cfg.offside.get("store")
+    enabled = cfg.inline.get("enalbed")
 
     if enabled is False:
         return False
