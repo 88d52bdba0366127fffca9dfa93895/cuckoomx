@@ -39,22 +39,22 @@ class Request:
 
         for machine in self.machines.split(","):
             machine = Machine().get_available_machine(machine)
-            request = requests.post(
+            response = requests.post(
                 rest_url,
                 files={"url": ("", url)},
                 data={
                   "priority": 1,
                   "machine": machine})
 
-            # Check for request.status_code
-            if request.status_code != requests.codes.ok:
-                log.warn("Request for url \"%s\" return status_code = %s",
-                  url, request.status_code)
+            # Check for response.status_code
+            if response.status_code != requests.codes.ok:
+                log.warn("response for url \"%s\" return status_code = %s",
+                  url, response.status_code)
                 continue
 
-            task_id = request.json()["task_id"]
+            task_id = response.json()["task_id"]
             if not task_id:
-                log.warn("Request for url \"%s\" return task_id = %s",
+                log.warn("response for url \"%s\" return task_id = %s",
                   url, task_id)
                 return None
 
@@ -77,22 +77,22 @@ class Request:
 
         for machine in self.machines.split(","):
             machine = Machine().get_available_machine(machine)
-            request = requests.post(
+            response = requests.post(
                 rest_url,
                 files={"file": (filename, attachment)},
                 data={
                   "priority": 1,
                   "machine": machine})
 
-            # Check for request.status_code
-            if request.status_code != requests.codes.ok:
-                log.warn("Request for file \"%s\" return status_code = %s",
-                  filename, request.status_code)
+            # Check for response.status_code
+            if response.status_code != requests.codes.ok:
+                log.warn("response for file \"%s\" return status_code = %s",
+                  filename, response.status_code)
                 continue
 
-            task_id = request.json()["task_ids"]
+            task_id = response.json()["task_ids"]
             if not task_id:
-                log.warn("Request for file \"%s\" return task_id = %s",
+                log.warn("response for file \"%s\" return task_id = %s",
                   filename, task_id)
                 return None
         

@@ -40,6 +40,7 @@ class DatabaseMX:
             "msg_id": "<863915596.101.1444539469173.JavaMail.zimbra@xxx.com>",
             "status": 0,
             "highest_malscore": 0,
+            "safebrowsing": ["http://malicioussite.net"],
             "path": "/opt/zimbra/store/0/3/msg/0/257-12.msg",
             "tasks": [
                 {
@@ -146,6 +147,7 @@ class DatabaseMX:
             "msg_id": mail.get_msg_id(),
             "status": mail.get_status(),
             "highest_malscore": 0,
+            "safebrowsing": mail.get_safebrowsing(),
             "path": mail.get_path(),
             "date": mail.date,
             "sender": mail.sender,
@@ -210,6 +212,11 @@ class DatabaseMX:
     def count_tasks_not_done(self):
         return self.dbmx["mails"].count({"tasks": {"date_checked": None}})
 
+    def inc_mails_have_malwares(self):
+        """Increase @para total_malwares in database"""
+        self.dbmx["summary"].update(
+            {}, {"$inc": {"total_malwares": 1}})
+
     def get_mails_have_malwares(self):
         """Get all mails have malwares, sort by status
         @return: list of mails
@@ -217,14 +224,10 @@ class DatabaseMX:
         cfg = Config("cuckoomx")
         warning_malscore = cfg.cuckoomx.get("warning_malscore", "2")
 
-        mails = self.dbmx["mails"].find({
-            "highest_malscore": {"$gte": int(warning_malscore)}})
+        mails = self.dbmx["mails"].find({"$or": [
+            {"highest_malscore": {"$gte": int(warning_malscore)}},
+            {"safebrowsing": {"$ne": None}}]})
 
         if mails is None:
             return None
-        return mails.sort([("id", -1)]) #######
-
-    def inc_mails_have_malwares(self):
-        """Increase @para total_malwares in database"""
-        self.dbmx["summary"].update(
-            {}, {"$inc": {"total_malwares": 1}})
+        return mails.sort([("id", -1)])

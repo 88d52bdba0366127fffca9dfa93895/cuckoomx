@@ -62,9 +62,3 @@ Run CuckooMX via
 ```bash
 python ./cuckoomx/cuckoomx.py
 ```
-
-Run web interface via
-
-```bash
-python ./cuckoo/web/manage.py runserver 0.0.0.0:8000
-```

@@ -45,12 +45,10 @@ def offside():
                 if mail.analyze() is False:
                     continue
 
-                # Okay, add it to database
                 dbmx = DatabaseMX()
                 dbmx.add_mail(mail)
 
                 nothing_to_check = False
                 log.debug("Add mail %s to database", mail.get_msg_id())
-
         if nothing_to_check:
             time.sleep(1)

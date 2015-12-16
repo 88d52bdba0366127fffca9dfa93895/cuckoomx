@@ -9,6 +9,7 @@ import hashlib
 
 from lib.cuckoomx.core.request import Request
 from lib.cuckoomx.core.databasemx import DatabaseMX
+from lib.cuckoomx.core.safebrowsing import SafeBrowsing
 
 log = logging.getLogger(__name__)
 
@@ -35,6 +36,7 @@ class Mail(object):
         self.urls = []
         self.attachments = []
         self.tasks = []
+        self.safebrowsing = None
 
         self.dbmx = DatabaseMX()
 
@@ -55,6 +57,12 @@ class Mail(object):
         @return: self.path
         """
         return self.path
+
+    def get_safebrowsing(self):
+        """Get safebrowsing
+        @return: self.safebrowsing
+        """
+        return self.safebrowsing
 
     def get_tasks(self):
         return self.tasks
@@ -93,6 +101,11 @@ class Mail(object):
         """Process URLs
         @para urls: list of url need to be analyzed
         """
+        safebrowsing = SafeBrowsing()
+        result = safebrowsing.lookup(urls)
+        if result is not True:
+            self.safebrowsing = result
+        
         for url in urls:
             # Check if this url is exists in our database
             # Should be check it again if we already check this url 1 day ago

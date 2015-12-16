@@ -17,6 +17,8 @@ def inline():
     In this mode, CuckooMX will capture, extract and analyze mails are
     transferring on traffic. Please not that with this mode, CuckooMX maybe
     affect Mail service, so we recommend using SPAN port.
+
+    NOTE: Please note that this mode is under development
     """
     cfg = Config("cuckoomx")
     enabled = cfg.inline.get("enalbed")
