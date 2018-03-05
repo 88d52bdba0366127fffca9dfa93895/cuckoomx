@@ -90,12 +90,12 @@ class Request:
                   filename, response.status_code)
                 continue
 
-            task_id = response.json()["task_ids"]
+            task_id = response.json()["task_id"]
             if not task_id:
                 log.warn("response for file \"%s\" return task_id = %s",
                   filename, task_id)
                 return None
         
-            task_ids.append(task_id[0])
+            task_ids.append(task_id)
 
         return task_ids
