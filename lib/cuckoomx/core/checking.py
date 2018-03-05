@@ -61,7 +61,7 @@ def checking():
                     check_all_tasks = False
                     continue
 
-                malscore = document["malscore"]
+                malscore = document["info"]["score"]
                 if malscore >= critical_malscore:
                     dbmx.inc_mails_have_malwares()
                     log.critical("Mail %s, task %s has malware",
