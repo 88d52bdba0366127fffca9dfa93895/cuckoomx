@@ -178,18 +178,19 @@ class Mail(object):
         self.content_length = message['content-length']
 
         for part in message.walk():
-            if part.get_content_maintype() == 'multipart':
+            ctype = part.get_content_maintype()
+            if ctype == 'multipart':
                 # Nothing to do
                 continue
 
-            elif part.get_content_maintype() == 'text':
+            if ctype == 'text':
                 content = part.get_payload(decode=True)
                 self.content.append(content)
 
                 urls = self.get_urls(content)
                 self.urls.extend(urls)
 
-            elif part.get_content_maintype() == 'application':
+            if ctype in ['image', 'application','audio','video','font']:
                 filename = part.get_filename()
                 payload = part.get_payload(decode=True)
 
